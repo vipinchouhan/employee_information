@@ -1,6 +1,6 @@
 # employee_information
 
-This project basically design basic layout for employee information using following
+This is basic flutter project that provide basic layout design for employee information using following
 1. Container
 2. Text
 3. Center
