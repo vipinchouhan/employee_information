@@ -58,13 +58,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image.asset("assets/images/mail.png"),
+                            //Image.asset("assets/images/mail.png"),
                             Text("vipin050chouhan@gmail.com",style: TextStyle(fontSize: 15),)
                           ],
                         ),
                         Row(
                           children: [
-                            Image.asset("assets/images/phone.png"),
+                            //Image.asset("assets/images/phone.png"),
                             Text("+91-8386943341",style: TextStyle(fontSize: 15),)
                           ],
                         ),
@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Center(
                               child: Padding(
                                 padding: const EdgeInsets.all(8.0),
-                                child: Text("5000 Reviews",style: TextStyle(fontSize: 15),),
+                                child: Text("5K Reviews",style: TextStyle(fontSize: 15),),
                               ),
                             )
 
