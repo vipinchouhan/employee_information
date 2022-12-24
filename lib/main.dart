@@ -49,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Container(
                         height: 150,
                         child: Image.asset("assets/images/profile.jpg"),
+
                       ),
                       Container(
                         padding: const EdgeInsets.all(8.0),
@@ -56,10 +57,22 @@ class _MyHomePageState extends State<MyHomePage> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children:[
-                              const Text("Mr. Vipin Chouhan",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-                              const Text("vipin050chouhan@gmail.com",style: TextStyle(fontSize: 15),),
-                              const Text("+91-8386943341",style: TextStyle(fontSize: 15),),
-                              const Text("https://github.com/vipinchouhan",style: TextStyle(fontSize: 15),),
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 5),
+                                child: const Text("Mr. Vipin Chouhan",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 5),
+                                child: const Text("vipin050chouhan@gmail.com",style: TextStyle(fontSize: 15),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 5),
+                                child: const Text("+91-8386943341",style: TextStyle(fontSize: 15),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 5),
+                                child: const Text("https://github.com/vipinchouhan",style: TextStyle(fontSize: 15),),
+                              ),
                               const Text("https://www.linkedin.com/in/vipin-chouhan/",style: TextStyle(fontSize: 15),),
 
                               Row(
