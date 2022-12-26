@@ -113,14 +113,33 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children:[
                       const Text("BE Graduate|6.5 years of experience in Android development|Sound understanding of Kotlin, Java, MVVM, Live data, View Model, Room, SQLite, Git, Dagger, Google Play services Social login, video call, Jira, Agile Methodology, Documentation and Deployment on play store",style: TextStyle(fontSize: 15,fontStyle: FontStyle.italic),),
-                      const Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Center(child: Text("Technology",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 10,top: 10),
+                        decoration: BoxDecoration(
+                          shape: BoxShape.rectangle,
+                          border: Border.all(
+                            color: Colors.black,
+                          width: 2),
+                          color: Colors.black38,
+                          borderRadius: const BorderRadius.only(bottomRight: Radius.circular(10),topLeft: Radius.circular(10),bottomLeft: Radius.circular(2),topRight: Radius.circular(2))
+
+                        ),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Center(
+                              child: Text("Technology",
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    fontStyle: FontStyle.normal,
+                                    fontWeight: FontWeight.bold),
+                              )
+                          ),
+                        ),
                       ),
                       SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
@@ -195,9 +214,21 @@ class _MyHomePageState extends State<MyHomePage> {
                           ],
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Center(child: Text("Tools",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 10,top: 10),
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            border: Border.all(
+                                color: Colors.black,
+                                width: 2),
+                            color: Colors.black38,
+                            borderRadius: const BorderRadius.only(bottomRight: Radius.circular(10),topLeft: Radius.circular(10),bottomLeft: Radius.circular(2),topRight: Radius.circular(2))
+
+                        ),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Center(child: Text("Tools",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                        ),
                       ),
                       Column(
                         children: [
@@ -387,9 +418,21 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Center(child: Text("Experience",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 10,top: 10),
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            border: Border.all(
+                                color: Colors.black,
+                                width: 2),
+                            color: Colors.black38,
+                            borderRadius: const BorderRadius.only(bottomRight: Radius.circular(10),topLeft: Radius.circular(10),bottomLeft: Radius.circular(2),topRight: Radius.circular(2))
+
+                        ),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Center(child: Text("Experience",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                        ),
                       ),
                       Column(
                         children: [
@@ -457,9 +500,21 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Center(child: Text("Education",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 10,top: 10),
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            border: Border.all(
+                                color: Colors.black,
+                                width: 2),
+                            color: Colors.black38,
+                            borderRadius: const BorderRadius.only(bottomRight: Radius.circular(10),topLeft: Radius.circular(10),bottomLeft: Radius.circular(2),topRight: Radius.circular(2))
+
+                        ),
+                        child: const Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Center(child: Text("Education",style: TextStyle(fontSize: 20,fontStyle: FontStyle.normal,fontWeight: FontWeight.bold),)),
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
